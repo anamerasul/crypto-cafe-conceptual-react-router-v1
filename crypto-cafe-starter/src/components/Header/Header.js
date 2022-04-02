@@ -13,7 +13,7 @@ const Header = () => {
                 <CustomLink to='/'>Home</CustomLink>
                 <CustomLink to='/coins'>Coins</CustomLink>
                 <CustomLink to='/contract'>Contract</CustomLink>
-                <CustomLink to='/About'>About</CustomLink>
+                <CustomLink to='/about'>About</CustomLink>
                 {/* <CustomLink to='/*'></CustomLink> */}
 
 
