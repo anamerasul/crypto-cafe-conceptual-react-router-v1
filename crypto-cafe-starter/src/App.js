@@ -4,6 +4,7 @@ import Coins from './components/Coins/Coins'
 import Contact from './components/Contact/Contact'
 import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
 
         <Route path="/contract" element={<Contact></Contact>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   )
 }
